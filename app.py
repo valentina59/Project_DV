@@ -140,6 +140,7 @@ type_radio = dcc.RadioItems(
 title_dropdown = dcc.Dropdown(id='title-dropdown')
 
 app = dash.Dash(__name__)
+server=app.server
 
 app.layout = html.Div([
     # title
